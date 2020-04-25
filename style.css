@@ -1,0 +1,189 @@
+HTML { 
+    overflow-x :hidden ;
+}
+
+body {
+    background-image: url(images/fond.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: black;
+}
+
+.jumbotron {
+    background-color: #ffb840;
+}
+
+
+#art1,#art2,#art3 {
+    background-color: rgba(235,245,255,0.8);
+    text-align: center;
+    margin: 10px;
+    border-radius: 3px;
+    width: 98%;
+    height: 300px;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 50px;
+}
+
+h1 {
+    color: #1F3B66;
+}
+
+#logo {
+    background-color: #FFB840;
+}
+
+#navigation {
+    background-color: #2B6CB3;
+}
+
+header h1 {
+    font-weight: 700;
+}
+
+header h2 {
+    font-weight: 200;
+    letter-spacing: 1.5px;
+}
+
+header img {
+    height: 75px;
+    align-self: center;
+    margin-left: 1em;
+}
+
+.navbar {
+    height: 6.4em;
+    width: 100%;
+}
+
+nav li {
+    padding: 1em;
+    font-size: 1.5em;
+    margin: 5px;
+}
+
+figure {
+    margin: 30px;
+    padding: 10px;
+}
+
+
+
+p{
+    text-align: center;
+    font-family: Carlito;
+}
+
+.pi {
+    font-size: 2em;
+}
+
+h3 {
+    font-family: arimo;
+    width: 50em;
+}
+
+ul {
+    align-items: center;
+}
+
+#art1-2,#art2-2,#art3-2 {
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    height:100%;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+h4 {
+    color: black;
+}
+
+img {
+    height: 200px;
+}
+
+@media screen and (max-width: 780px) {
+    
+    #explication {
+        display: none;
+    }
+    
+    img {
+        height: 100%;
+        width: 100%;
+    }
+    
+    figure {
+        padding: 0;
+        margin: 5px;
+        margin-left: 0;
+    }
+    
+    #art1,#art2,#art3 {
+    background-color: rgba(235,245,255,0.8);
+    text-align: center;
+    margin: 10px;
+    border-radius: 3px;
+    width: 98%;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 50px;
+}
+}
+
+a:link {
+  color: black;
+}
+
+
+a:visited {
+  color: black;
+}
+
+
+a:hover {
+  color: black;
+}
+
+a:active {
+  color: black;
+} 
+
+.boutton{
+    background-color: #ffb840;
+    color: #2b6cb3;
+    margin: 10px;
+    width: 500px;
+    height: 180px;
+    font-size: 3em;
+    
+}
+
+
+
+#bloc1,#bloc{
+    border-radius: 100px
+}
+
+#notre{
+    margin: 35px;
+}
+
+#devis{
+    margin: 10px;
+}
+
+.affacc {
+    margin: 30px;
+    padding: 10px;
+    background-color: rgba(235,245,255,0.9);
+    border-radius: 40px;
+}
+
