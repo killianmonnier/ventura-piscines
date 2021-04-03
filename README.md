@@ -4,4 +4,6 @@ Ce site web sur un thème imposé est un travail de groupe réalisé lors du pre
 
 # Preview
 
-![website preview](img/preview.gif)
+<p align="center">
+    <img src="img/preview.gif" alt="animated" />
+</p>
